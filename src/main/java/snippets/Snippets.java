@@ -40,6 +40,7 @@ public abstract class Snippets {
 
     /**
      * Calculates the greatest common denominator (gcd) of an array of numbers
+     * 最大公分母
      *
      * @param numbers Array of numbers
      * @return gcd of array of numbers

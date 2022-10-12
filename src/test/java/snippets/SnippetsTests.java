@@ -20,6 +20,11 @@ public class SnippetsTests {
         OptionalInt gcd = Snippets.gcd(new int[]{1, 2, 3, 4, 5});
         assertThat(gcd).isNotEmpty();
         assertThat(gcd).hasValue(1);
+
+        OptionalInt gcd2 = Snippets.gcd(new int[]{3, 4, 6});
+        System.out.println(gcd2.getAsInt());
+        assertThat(gcd2).isNotEmpty();
+        assertThat(gcd2).hasValue(1);
     }
 
     @Test
